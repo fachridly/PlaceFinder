@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/fasilitas_text_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:text="@string/view_add_edit_fasilitas_btn_batal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/fasilitas_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/fasilitas_title"
+        android:id="@+id/cardView">
+
+        <Spinner
+            android:id="@+id/fasilitas_input_kategori"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:dropDownWidth="match_parent"
+            android:spinnerMode="dialog"
+            android:prompt="@string/menu_nav_kategori"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cardView"
+        android:layout_marginTop="8dp"
+        android:id="@+id/cardView2">
+
+        <Spinner
+            android:id="@+id/fasilitas_input_sub_kategori"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:dropDownWidth="match_parent"
+            android:spinnerMode="dialog"
+            android:prompt="@string/menu_nav_sub_kategori"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cardView2"
+        android:id="@+id/textInputLayout">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/fasilitas_input_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/view_add_edit_fasilitas_nama_fasilitas"
+            android:inputType="textCapWords" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textInputLayout"
+        android:id="@+id/textInputLayout2">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/fasilitas_input_latitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/view_add_edit_fasilitas_latitude"
+            android:inputType="number|numberSigned|numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textInputLayout2"
+        android:id="@+id/textInputLayout3">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/fasilitas_input_longitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/view_add_edit_fasilitas_longitude"
+            android:inputType="number|numberSigned|numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/fasilitas_btn_save"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textInputLayout3"
+        android:text="@string/view_add_edit_fasilitas_btn_simpan" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Place Finder</string>
+    <string name="title_activity_maps">Place Finder</string>
+    <string name="draw">Draw</string>
+    <string name="text_main_btn_database">Database</string>
+    <string name="text_main_btn_fasilitas_umum">Fasilitas Umum</string>
+    <string name="menu_nav_kategori">Kategori</string>
+    <string name="menu_nav_fasilitas">Fasilitas</string>
+    <string name="menu_nav_sub_kategori">Sub Kategori</string>
+    <string name="title_activity_data">Data Fasilitas</string>
+    <string name="menu_add_new">Add New</string>
+    <string name="view_add_edit_fasilitas_btn_simpan">Simpan</string>
+    <string name="view_add_edit_fasilitas_btn_batal">x</string>
+    <string name="view_add_edit_fasilitas_nama_fasilitas">Nama Fasilitas</string>
+    <string name="view_add_edit_fasilitas_latitude">Latitude</string>
+    <string name="view_add_edit_fasilitas_longitude">Longitude</string>
+    <string name="maps_pencarian">Pencarian</string>
+    <string name="text_main_btn_tentang">Tentang</string>
+    <string name="text_main_btn_bantuan">Bantuan</string>
+    <string name="text_main_btn_atur_password">Atur Password</string>
+    <string name="label_pengaturan_activity">Pengaturan Password</string>
+    <string name="admin_text_password_lama">Password Lama</string>
+    <string name="admin_text_password_baru">Password Baru</string>
+    <string name="admin_text_ulangi_password_baru">Ulangi Password Baru</string>
+    <string name="admin_text_btn_ubah_password">Ubah Password</string>
+    <string name="btn_login_ok">OK</string>
+    <string name="server_error">Server error. Something when wrong with the server</string>
+</resources>
